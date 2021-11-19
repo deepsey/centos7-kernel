@@ -15,6 +15,14 @@ There is a package for gcc-7.2.1 for devtoolset-7 as an example. First you need 
     sudo yum install devtoolset-7-gcc*
     scl enable devtoolset-7 bash
     which gcc
-    gcc --version
+
+And cheking gcc version:  
+
+    gcc --version  
+    gcc (GCC) 7.3.1 20180303 (Red Hat 7.3.1-5)  
+    Copyright (C) 2017 Free Software Foundation, Inc.  
+    This is free software; see the source for copying conditions.  There is NO  
+    warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+
 
 
