@@ -5,6 +5,9 @@
     yum install bison   
     yum install elfutils-libelf-devel  
     yum install openssl-devel  
+    yum install epel-release  
+    yum update
+    yum install gcc flex bison elfutils-libelf-devel openssl-devel perl  
   
 #### Update GCC:
 Often people want the most recent version of gcc, and devtoolset is being kept up-to-date, so maybe you want devtoolset-N where N={4,5,6,7...}, check yum for the latest available on your system). Updated the cmds below for N=7.  
