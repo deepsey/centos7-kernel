@@ -28,4 +28,21 @@ And cheking gcc version:
     warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
 
 
+## Installing a new kernel for Oracle Linux 
+
+#### Preinstall
+
+    yum install epel-release flex bison elfutils-libelf-devel openssl openssl-devel bc
+    wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.19.12.tar.xz
+    tar -xf linux-5.19.12.tar.xz 
+    cp /boot/config-4.18.0-372.26.1.0.1.el8_6.x86_64 .config
+    
+#### Install
+
+    make oldconfig
+    make -j12
+    make install    
+    make modules_install
+    
+   
 
