@@ -61,9 +61,10 @@ And we need to install gcc version 9.3.0 to install headers. Let's do it:
     
 After reboot check gcc version:
 
-    # gcc --version
-      gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44)
-      Copyright (C) 2015 Free Software Foundation, Inc.
+    $ gcc --version
+      gcc (GCC) 9.3.0
+      Copyright (C) 2019 Free Software Foundation, Inc.
+
       
 Now we can build headers:
 
