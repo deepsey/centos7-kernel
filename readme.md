@@ -1,12 +1,12 @@
 ## Installing linux kernel 6.0.5 from source code 
 
 #### Preinstall 
-*1. Install some needed packages*
+**1. Install some needed packages**
 
     sudo yum install epel-release  
     sudo yum install -y wget gcc flex bison elfutils-libelf-devel openssl-devel perl
     
-*2. Install gcc 9.3.0 version
+**2. Install gcc 9.3.0 version**
     
     mkdir gcc
     cd gcc/
