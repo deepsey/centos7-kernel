@@ -1,6 +1,6 @@
 ## Installing linux kernel 6.0.5 from source code 
 
-#### Preinstall 
+### Preinstall 
 **1. Install some needed packages**
 
     sudo yum install epel-release  
